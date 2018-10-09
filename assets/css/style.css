@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'pt sans', sans-serif;
+}
+::selection{
+    background: #1c1919;
+}
+.heroSection{
+    padding-bottom: 5px;
+    width: 100%;
+    height: auto;
+    background-color: #1c1919;
+    box-sizing: border-box;  
+}
+.heroSection .container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-image: url("assets/img/Rectangle 1.png");
+    padding-bottom: 540px;
+    outline-style: solid;
+}
+.heroSection .container nav{
+    width: 100%;
+    height: auto;
+}
+.heroSection .container nav .menuBar{
+    float: center;
+    padding-top: 5px;
+}
+.heroSection .container nav .menuBar ul{
+    list-style-type: none;
+    text-align: center
+}
+.heroSection .container nav .menuBar ul li{
+    display: inline-block;
+    text-align: center
+}
+.heroSection .container nav .menuBar ul li:last-child{
+    margin-right: 70px;
+}
+.heroSection .container nav .menuBar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 13px 20px;
+    transition: 0.1s;
+}
+.heroSection .container nav .menuBar ul li a:hover{
+    border-bottom: 2px solid #fff;
+    transition: 0.1s
+}
+/*.heroSection .container nav .logo{
+    margin-left: 40px;
+    float: left
+}*/
+.clear{
+    clear: both
+}
+.heroSection .container section .logo{
+    padding-top: 100px;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    font-size: 42px;
+    text-align: center;
+}
+.paragraph1{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: left;
+}
+.p1{
+    font-size: 14px;
+    text-align: left;
+}
+.mobileapp{
+    background: #0f8578; 
+    padding-top: 20px;
+}
+.logo{
+    float: right;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: left;
+}
+.applogo{
+    color: #ffffff;
+    font-size: 45px;
+}
+mobile{
+    float: left;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.mobile img{
+    padding-top: 40px;
+    margin-left: 75px;
+}
+.paragraph2{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 250px;
+}
+.p2{
+    font-size: 14px;
+    text-align: left;
+}
+.webapp{
+    background: #0f8578;
+    outline-style: solid;  
+    outline-color: #000000;
+}
+.logo2{
+    float: left;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: left;
+}
+.applogo{
+    font-size: 45px;
+}
+.web{
+    float: right;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.web img{
+    padding-top: 40px;
+    margin-left: 75px;
+}
+.weblogos{
+    padding-left: 250px;
+}
+.work{
+    background-image: url("assets/img/hbhic.png");
+}
+.paragraph3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 20px;
+}
+.web{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.rightarrow{
+    float: right;
+    padding-right: 200px;
+    padding-top: 110px;
+}
+.leftarrow{
+    float: left;
+    padding-left: 200px;
+    padding-top: 120px;
+}
+.gallery{
+    background-image: url("assets/img/1205586_72226551.png");
+    padding-bottom: 20px;
+}
+.p3{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.gallerypage{
+    padding-right: 170px;
+
+}
+.gallerypage a{
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background: #0f8578;
+    width: 140px;
+    height: 30px;
+    line-height: 35px;
+    border-radius: 2px;
+    font-size: 18px;
+    border-bottom: 5px solid #0f8578;
+}
